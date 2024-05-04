@@ -15,3 +15,15 @@ Namun, jika misalnya kita hanya mengubah salah satu port, misalnya port klien, a
 ![](2.2.png) 
 
 ![](2.3.png) 
+
+**2.3. Small changes. Add some information to client** 
+
+![](2.5.png)  
+
+Hasil pada foto tersebut didapat dengan mengubah kode dalam bin/server.rs. Perubahan ini dilakukan agar ketika bcast.tx (yang merupakan pengirim) mengirim pesan ke setiap pelanggan, itu juga akan memberikan alamat IP pengirim teks melalui variabel addr.
+
+
+
+
+
+
